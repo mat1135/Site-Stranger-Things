@@ -1,0 +1,45 @@
+@font-face{
+  font-family: 'Fonte1';
+  src: url(../fonts/itc-benguiat-bold.ttf);
+}
+
+* {
+    margin:0;
+    padding:0;
+    }
+        
+    .contanier {
+        width: 1980px;
+        margin: 0 auto;
+        background-color: #FFF;
+    }
+
+    h1 {
+      display: none;
+    }
+    
+    h2{
+      color: #440000;
+      text-align: center;
+    }
+
+    h3{
+      color: #440000;
+      text-align: center;
+    }
+
+    .pagina {
+        width: 2000px;
+        height: 1900px;
+    }
+
+    .rodape{
+        width: auto;
+        height: auto;
+        background-color: #ff0e0e;
+    }
+
+    h5{
+        text-align: center;
+    }
+    

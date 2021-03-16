@@ -1,0 +1,87 @@
+@font-face{
+  font-family: 'Fonte1';
+  src: url(fonts/Benguiat-Bold.ttf);
+}
+
+/* Formatação Geral*/
+
+* {
+  margin:0;
+  padding:0;
+}
+    
+.contanier {
+  height: auto;
+  margin: 0 auto;
+  background-color: #FFF;
+  font-family: 'Fonte1';
+}
+    
+.fundo {
+  background-image: url(imagens/wallpaper2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pagina {
+  width: auto; 
+  background-color: #f1faff;
+  height: auto; 
+  margin-top: -24px;
+}
+
+p {
+  font-size: 10pt;
+}
+
+h1 {
+  display: none;
+}
+
+.sub1 {
+  color: #ff6262;
+  text-align: left;
+  font-size: 10pt;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#sub2 {
+  text-align: left;
+  margin: 20px;
+}
+
+/* CSS Home */
+
+h3 {
+  color: #440000;
+  text-align: center;
+}
+
+#footer {
+  color: #FFF;
+  font-size: 14px;
+  padding-bottom: 10PX;
+  padding-top: 20px;
+  background-color: #7a001f;
+  text-align: center;
+  vertical-align: middle;
+}
+  
+.recuo { 
+  text-indent: 1em;
+  color: rgb(116, 0, 0);
+  padding: 5px;
+}
+
+#rede {
+  margin-left: 20px;
+}
+
+/* CSS Curiosidades */
+
+.imagens {
+  margin: 10px;
+}
