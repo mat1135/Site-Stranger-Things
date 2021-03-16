@@ -1,0 +1,173 @@
+@font-face{
+  font-family: 'Fonte1';
+  src: url(../fonts/Benguiat-Bold.ttf);
+}
+
+/* Formatação Geral*/
+
+* {
+  margin:0;
+  padding:0;
+}
+    
+.contanier {
+  height: auto;
+  margin: 0 auto;
+  background-color: #FFF;
+  font-family: 'Fonte1';
+}
+   
+ul {
+  margin: auto;
+  margin-left: 30px;
+}
+
+.fundo {
+  background-image: url(../imagens/wallpaper2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pagina {
+  width: auto; 
+  background-color: #f1faff;
+  height: auto; 
+  margin-top: -24px;
+}
+
+p {
+  font-size: 10pt;
+}
+
+h1 {
+  display: none;
+}
+
+.sub1 {
+  color: #ff6262;
+  text-align: left;
+  font-size: 10pt;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#sub2 {
+  text-align: left;
+  margin: 20px;
+}
+
+#rede1 {
+  margin-top: -15px;
+  margin-left: 350px;
+}
+
+#rede2 {
+  margin-top: -3px;
+  margin-left: 0px;
+}
+
+#footer {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  padding-bottom: 10PX;
+  padding-top: 20px;
+  background-color: #7a001f;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.imgfooter {
+  margin-top: -15px;
+  margin-left: 10px;
+}
+  
+h3 {
+  color: #440000;
+  text-align: center;
+}
+
+.recuo { 
+  text-indent: 1em;
+  color: rgb(116, 0, 0);
+  padding: 5px;
+}
+
+/* CSS Home */
+
+.homeh3 {
+  font-size: 13px;
+  text-align: left;
+  padding: 2px;
+}
+
+.homeP{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: #7a001f;
+}
+
+/* CSS Elenco */
+
+.elnh3 {
+  font-size: 8pt;
+  color: #ff9292;
+}
+
+.pagina a {
+  text-decoration: none;
+}
+
+/* CSS Curiosidades */
+
+.imagens {
+  margin: 10px;
+}
+
+.curiP {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.curih4 {
+  font-family: 'Fonte1';
+  font-size: 14pt;
+  color: #bd4949;
+}
+
+/* CSS SeasonOne */
+
+.onerecuo {
+  text-indent: 1em;
+  color: rgb(116, 0, 0);
+  padding-left: 10px;
+}
+
+.oneP {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.oneh3 {
+  color: #7a001f;
+}
+
+.oneh4 {
+  text-align: left;
+  margin-left: 50px;
+  font-size: 14pt;
+  color: #bd4949;
+}
+
+.oneOl {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.oneUl {
+  font-size: 10pt;
+  text-decoration: none;
+  list-style:none; 
+  padding: 10px;
+}
+
+.oneA {
+  color: #7a001f;
+}
