@@ -16,6 +16,13 @@
   background-color: #FFF;
   font-family: 'Fonte1';
 }
+
+img {
+  margin: auto;
+  padding: auto;
+  width: auto;
+  height: auto;
+}
    
 ul {
   margin: auto;
