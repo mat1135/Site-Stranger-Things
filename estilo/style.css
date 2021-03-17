@@ -65,14 +65,16 @@ h1 {
   margin: 20px;
 }
 
+.direita {
+  float:right;
+}
+
 #rede1 {
-  margin-top: -15px;
-  padding-left: 350px;
+  margin-top: 0px;
 }
 
 #rede2 {
   margin-top: -3px;
-  margin-left: 0px;
 }
 
 #footer {
@@ -208,9 +210,64 @@ ul#album-fotos li#fotos12 {
   background-color: #ffffff;
 }
 
+/* CSS Fotos SeasonOne */
 
+ul#album-fotos li#fotos13 {
+  background: url('../imagens/img\ temp3-1.jpg') no-repeat;    
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+  background-color: #ffffff;
+  margin-left: 50px;
+}
+
+ul#album-fotos li#fotos14 {
+  background: url('../imagens/img\ temp3-2.jpg') no-repeat;   
+   background-position: 40% 40%;
+  background-size: 300px 300px;
+  background-color: #ffffff;
+}
+
+ul#album-fotos li#fotos15 {
+  background: url('../imagens/img\ temp3-3.jpg') no-repeat;    
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+  background-color: #ffffff;
+}
+
+ul#album-fotos li#fotos16 {
+  background: url('../imagens/img\ temp3-4.jpg') no-repeat;    
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+  background-color: #ffffff;
+  margin-left: 50px;
+}
+
+ul#album-fotos li#fotos17 {
+  background: url('../imagens/img\ temp3-5.jpg') no-repeat;   
+   background-position: 40% 40%;
+  background-size: 300px 300px;
+  background-color: #ffffff;
+}
+
+ul#album-fotos li#fotos18 {
+  background: url('../imagens/img\ temp3-6.jpg') no-repeat;    
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+  background-color: #ffffff;
+}
 
 /* CSS Home */
+
+.homeH2 {
+  color: #fff; 
+  background-color:#9e0028; 
+  text-align: start; 
+  font-family: 'Fonte1'; 
+  font-size: 17pt; 
+  padding: 10px; 
+  padding-left: 50px;
+  margin-top: -16px;
+}
 
 .homeh3 {
   font-size: 13px;
@@ -254,7 +311,7 @@ ul#album-fotos li#fotos12 {
 
 /* CSS SeasonOne */
 
-.oneP {
+.onerecuo {
   font-family: Arial, Helvetica, sans-serif;
   text-indent: 1em;
   color: rgb(116, 0, 0);
@@ -264,6 +321,7 @@ ul#album-fotos li#fotos12 {
 
 .oneh3 {
   color: #7a001f;
+  margin-top: 20px;
 }
 
 .oneh4 {
@@ -271,6 +329,7 @@ ul#album-fotos li#fotos12 {
   margin-left: 50px;
   font-size: 14pt;
   color: #bd4949;
+  margin-top: 20px;
 }
 
 .oneOl {
@@ -295,7 +354,7 @@ ul#album-fotos li#fotos12 {
   margin-left: 50px;
   font-size: 14pt;
   color: #bd4949;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .tworecuo {
@@ -310,7 +369,7 @@ ul#album-fotos li#fotos12 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.oneUl {
+.twoUl {
   font-size: 10pt;
   text-decoration: none;
   list-style:none; 
@@ -328,7 +387,7 @@ ul#album-fotos li#fotos12 {
 }
 
 .treh3 {
-  color: #7a001f;
+  color: #810020;
 }
 
 .treh4 {
@@ -336,6 +395,7 @@ ul#album-fotos li#fotos12 {
   margin-left: 50px;
   font-size: 14pt;
   color: #bd4949;
+  margin-top: 20px;
 }
 
 .treOl {
