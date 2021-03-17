@@ -86,7 +86,6 @@ h1 {
 }
 
 .imgfooter {
-  margin-top: -15px;
   margin-left: 10px;
 }
   
@@ -100,6 +99,116 @@ h3 {
   color: rgb(116, 0, 0);
   padding: 10px;
 }
+
+/* CSS Fotos */
+
+ul#album-fotos {
+  list-style: none;
+}
+
+ul#album-fotos li {
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 0px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+}
+
+/* CSS Fotos SeasonOne */
+
+ul#album-fotos li#fotos01 {
+  background: url('../imagens/img\ temp1-1.jpg') no-repeat;    
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+  background-color: #ffffff;
+  margin-left: 50px;
+}
+
+ul#album-fotos li#fotos02 {
+  background: url('../imagens/img\ temp1-6.jpg') no-repeat;    
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+  background-color: #ffffff;
+}
+
+ul#album-fotos li#fotos03 {
+  background: url('../imagens/img\ temp1-3.jpg') no-repeat;    
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+  background-color: #ffffff;
+}
+
+ul#album-fotos li#fotos04 {
+  background: url('../imagens/img\ temp1-4.jpg') no-repeat;    
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+  background-color: #ffffff;
+  margin-left: 50px;
+}
+
+ul#album-fotos li#fotos05 {
+  background: url('../imagens/img\ temp1-5.jpg') no-repeat;    
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+  background-color: #ffffff;
+}
+
+ul#album-fotos li#fotos06 {
+  background: url('../imagens/img\ temp1-2.jpg') no-repeat;    
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+  background-color: #ffffff;
+}
+
+/* CSS Fotos SeasonTwo */
+
+ul#album-fotos li#fotos07 {
+  background: url('../imagens/img\ temp2-1.jpg') no-repeat;
+  background-position: 20% 0%;
+  background-size: 300px 300px;
+  background-color: #ffffff;
+  margin-left: 50px;
+}
+
+ul#album-fotos li#fotos08 {
+  background: url('../imagens/img\ temp2-2.jpg') no-repeat;
+  background-position: 10% 30%;
+  background-size: 300px 300px;
+  background-color: #ffffff;
+}
+
+ul#album-fotos li#fotos09 {
+  background: url('../imagens/img\ temp2-3.jpg') no-repeat;    
+  background-position: 40% 40%;
+  background-size: 300px 300px;
+  background-color: #ffffff;
+}
+
+ul#album-fotos li#fotos10 {
+  background: url('../imagens/img\ temp2-4.jpg') no-repeat;    
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+  background-color: #ffffff;
+  margin-left: 50px;
+}
+
+ul#album-fotos li#fotos11 {
+  background: url('../imagens/img\ temp2-5.jpg') no-repeat;   
+   background-position: 40% 40%;
+  background-size: 300px 300px;
+  background-color: #ffffff;
+}
+
+ul#album-fotos li#fotos12 {
+  background: url('../imagens/img\ temp2-6.jpg') no-repeat;    
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+  background-color: #ffffff;
+}
+
+
 
 /* CSS Home */
 
@@ -139,18 +248,18 @@ h3 {
   font-family: 'Fonte1';
   font-size: 14pt;
   color: #bd4949;
+  text-align: left;
+  margin-left: 20px;
 }
 
 /* CSS SeasonOne */
 
-.onerecuo {
-  text-indent: 1em;
-  color: rgb(116, 0, 0);
-  padding-left: 10px;
-}
-
 .oneP {
   font-family: Arial, Helvetica, sans-serif;
+  text-indent: 1em;
+  color: rgb(116, 0, 0);
+  margin: 20px;
+  padding-left: 10px;
 }
 
 .oneh3 {
@@ -181,9 +290,65 @@ h3 {
 
 /* CSS SeasonTwo */
 
+.twoh4{
+  text-align: left;
+  margin-left: 50px;
+  font-size: 14pt;
+  color: #bd4949;
+  margin-top: 10px;
+}
+
 .tworecuo {
   font-family: Arial, Helvetica, sans-serif;
   text-indent: 1em;
   color: rgb(116, 0, 0);
+  margin: 20px;
   padding-left: 10px;
+}
+
+.twoOl {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.oneUl {
+  font-size: 10pt;
+  text-decoration: none;
+  list-style:none; 
+  padding: 10px;
+}
+
+/* CSS SeasonTree */
+
+.treP {
+  font-family: Arial, Helvetica, sans-serif;
+  text-indent: 1em;
+  color: rgb(116, 0, 0);
+  margin: 20px;
+  padding-left: 10px;
+}
+
+.treh3 {
+  color: #7a001f;
+}
+
+.treh4 {
+  text-align: left;
+  margin-left: 50px;
+  font-size: 14pt;
+  color: #bd4949;
+}
+
+.treOl {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.treUl {
+  font-size: 10pt;
+  text-decoration: none;
+  list-style:none; 
+  padding: 10px;
+}
+
+.treA {
+  color: #7a001f;
 }
