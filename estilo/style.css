@@ -98,7 +98,7 @@ h3 {
 .recuo { 
   text-indent: 1em;
   color: rgb(116, 0, 0);
-  padding: 5px;
+  padding: 10px;
 }
 
 /* CSS Home */
@@ -177,4 +177,13 @@ h3 {
 
 .oneA {
   color: #7a001f;
+}
+
+/* CSS SeasonTwo */
+
+.tworecuo {
+  font-family: Arial, Helvetica, sans-serif;
+  text-indent: 1em;
+  color: rgb(116, 0, 0);
+  padding-left: 10px;
 }
