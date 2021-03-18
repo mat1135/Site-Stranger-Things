@@ -9,11 +9,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/galeria.css">
 
     <title>&#127909Stranger Things</title>
   </head>
 
   <body class="fundo" style="font-family: 'Fonte1';">
+    <div class="modal">
+      <div class="modal_content">
+          <img src="imagens/" id="modal_img">
+      </div>
+      <span id="bt_close">&times;</span>
+    </div>
     <div class="container">
       <h1>Inicio</h1>
     
@@ -55,19 +62,32 @@
 
       <!-- FIM MENU -->
       <div class="pagina">
-        <h2 class="sub1">Inicio >> Stranger Things: 2ª Temporada</h2>
+        <h2 class="sub1"><a class="oneA" href="index.html">Inicio</a> >> Stranger Things: 2ª Temporada</h2>
         <h3>2ª Temporada</h3>
         <p class="tworecuo">Stranger Things 2 foi confirmado pela Netflix em 31 de agosto de 2016 para um lançamento de 2017. Um trailer de anúncio revelou que a segunda temporada consistiu em nove episódios, além de mostrar o título provisório de cada episódio. As filmagens da temporada começaram em Atlanta, Geórgia, em 7 de novembro de 2016.</p>
         <p class="tworecuo">Estamos em 1984 e os cidadãos de Hawkins , Indiana ainda estão se recuperando dos horrores do Demogorgon e dos segredos do Laboratório Hawkins . Will Byers foi resgatado do Upside Down, mas uma entidade maior e sinistra ainda ameaça aqueles que sobreviveram.</p>
-        <ul id=album-fotos>
-          <li id=fotos07></li>
-          <li id=fotos08></li>
-          <li id=fotos08></li>
-          <li id=fotos10></li>
-          <li id=fotos11></li>
-          <li id=fotos12></li>
-        </ul>   
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="row">
+          <div class="card_img">
+              <img src="imagens/img temp2-1.jpg" class="small_img">
+          </div>
+          <div class="card_img">
+              <img src="imagens/img temp2-2.jpg" class="small_img">
+          </div>
+          <div class="card_img">
+              <img src="imagens/img not2-3.jpg" class="small_img">
+          </div>
+      </div>
+      <div class="row">
+              <div class="card_img">
+                  <img src="imagens/img temp2-4.jpg" class="small_img">
+              </div>
+              <div class="card_img">
+                  <img src="imagens/img temp2-5.jpg" class="small_img">
+              </div>
+              <div class="card_img">
+                  <img src="imagens/img temp2-6.jpg" class="small_img">
+              </div>
+          </div>
           <h4 class="twoh4">Episodeos</h4>
           <ol class="twoOl">
             <li>"MADMAX"</li>
@@ -101,6 +121,7 @@
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+      <script src="javaScript/galeria.js"></script>
     </div>     
   </body>
 </html>
