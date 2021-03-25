@@ -3,42 +3,41 @@
     padding: 0;
 }
 
-.card_img{
+.cartao_img{
     width: 300px;
     height: 300px;
     overflow: hidden;
     margin: 1px;
-    margin-left: -10px;
 }
 
-.small_img{
+.pequena_img{
     height: 100%;
     cursor: pointer;
     transition: all linear 0.4s;
 }
 
-.small_img:hover{
+.pequena_img:hover{
     filter: grayscale(100%);
     transform: scale(1.01);
 }
 
-.row{
+.fileira{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-#modal_img{
+#modelo_img{
     width: 65vw;
     transform: scale(0);
     transition: all linear .3s;
 }
 
-.modal_active #modal_img{
+.modelo_ativo #modelo_img{
     transform: scale(1);
 }
-.modal{
 
+.modelo{
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, .7);
@@ -49,33 +48,33 @@
     transition: visibility 0.8s linear, opacity 0.5s linear;
 }
 
-.modal_content{
+.modelo_contente{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-#bt_close{
+#bt_voltar{
     color:#fff;
     background-color: #000;
     position: absolute;
-    top:10px;
-    right: 10px;
-    padding: 5px 10px;
+    top: 1px;
+    right: 20px;
+    padding: 1px 10px;
     font-size: 25px;
     border:solid 1px #fff;
     transition: all ease-out .4s;
     cursor: pointer;
 }
-#bt_close:hover{
+
+#bt_voltar:hover{
     background-color: #f00;
 }
 
-.modal_active{
+.modelo_ativo{
     visibility: visible;
     opacity: 1;
-
 }
 
 

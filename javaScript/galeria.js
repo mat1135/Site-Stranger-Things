@@ -1,20 +1,20 @@
-let imagens= document.querySelectorAll('.small_img');
-let modal = document.querySelector('.modal');
-let modalImg = document.querySelector('#modal_img');
-let btClose = document.querySelector('#bt_close');
+let imagens= document.querySelectorAll('.pequena_img');
+let modelo = document.querySelector('.modelo');
+let modeloImg = document.querySelector('#modelo_img');
+let btVoltar = document.querySelector('#bt_voltar');
 let srcVal="";
 
 for(let i =0; i<imagens.length;i++){
     imagens[i].addEventListener('click',function(){
         
         srcVal = imagens[i].getAttribute('src');
-        modalImg.setAttribute('src', srcVal);
-        modal.classList.toggle('modal_active');
+        modeloImg.setAttribute('src', srcVal);
+        modelo.classList.toggle('modelo_ativo');
     });
     
 }
 
 
-btClose.addEventListener('click', function(){
-    modal.classList.toggle('modal_active');
+btVoltar.addEventListener('click', function(){
+    modelo.classList.toggle('modelo_ativo');
 });
